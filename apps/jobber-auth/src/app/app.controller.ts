@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getData() {
+    // controller caled by the client
     return this.appService.getData();
   }
 }
